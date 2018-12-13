@@ -1,0 +1,12 @@
+id: light-home
+alias: Turn on light when I get home after sunset
+trigger:
+  platform: zone
+  entity_id: device_tracker.martijn_oneplus3
+  zone: zone.home
+condition:
+  condition: sun
+  after: sunset
+action:
+  service: homeassistant.turn_on
+  entity_id: switch.standing_light

@@ -1,0 +1,5 @@
+floor:
+  view: true
+  entities:
+    - light.floor_hall_central_light
+    - light.floor_hall_spots

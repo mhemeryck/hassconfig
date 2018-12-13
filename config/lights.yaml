@@ -1,0 +1,26 @@
+# Basement
+- platform: mqtt
+  name: "Basement entrance LED strip"
+  state_topic: "lights/basement_entrance/led_strip/status"
+  command_topic: "lights/basement_entrance/led_strip/switch"
+
+# Living
+- platform: mqtt
+  name: "Living room central"
+  state_topic: "lights/living/central/status"
+  command_topic: "lights/living/central/switch"
+
+- platform: mqtt
+  name: "Toilet ground floor"
+  state_topic: "lights/toilet_ground/status"
+  command_topic: "lights/toilet_ground/switch"
+
+# Floor
+- platform: mqtt
+  name: "Floor hall central light"
+  state_topic: "lights/floor_hall/status"
+  command_topic: "lights/floor_hall/switch"
+- platform: mqtt
+  name: "Floor hall spots"
+  state_topic: "lights/floor_spots/status"
+  command_topic: "lights/floor_spots/switch"
