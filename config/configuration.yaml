@@ -20,6 +20,11 @@ zone:
     radius: 100
     icon: mdi:worker
 
+# media_player:
+#   - platform: spotify
+#     client_id: !secret spotify_client_id
+#     client_secret: !secret spotify_client_secret
+
 # Enables the frontend
 frontend:
 
@@ -71,6 +76,8 @@ group: !include groups.yaml
 automation: !include automations.yaml
 
 light: !include lights.yaml
+
+switch: !include switches.yaml
 
 alarm_control_panel:
   - platform: manual_mqtt

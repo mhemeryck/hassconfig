@@ -1,5 +1,22 @@
-floor:
+Second floor:
   view: true
   entities:
-    - light.floor_hall_central_light
-    - light.floor_hall_spots
+    - light.night_hall_central
+    - light.night_hall_downlights
+    - light.night_hall_toilet
+    - light.bath_room_entrance
+    - light.bath_room_bath
+    - light.bath_room_shower
+    - light.bath_room_closet
+    - light.bedroom_parents_left_downlights
+    - light.bedroom_parents_central
+    - light.bedroom_parents_right_downlights
+    - light.bedroom_parents_dressing
+    - light.bedroom_Victor_central
+    - light.bedroom_Lucas_central
+    - switch.night_hall_central_1
+    - switch.night_hall_central_2
+    - switch.night_hall_central_3
+    - switch.night_hall_central_4
+    - switch.night_hall_central_5
+    - switch.night_hall_central_6

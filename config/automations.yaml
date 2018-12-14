@@ -1,9 +1,8 @@
-- id: toggle_night_hall_switch
-  alias: Switch MQTT light based on toggle
+- id: toggle_night_hall_central
+  alias: Toggle night hall central light
   trigger:
     platform: mqtt
-    topic: "night_hall/toggle"
-    payload: "trigger"
+    topic: "push_buttons/night_hall_central_1/toggle"
   action:
     service: light.toggle
-    entity_id: light.floor_hall_central_light
+    entity_id: light.night_hall_central
