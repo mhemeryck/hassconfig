@@ -7,3 +7,8 @@ services:
       - ./config:/config
       - /etc/localtime:/etc/localtime:ro
     network_mode: host
+    depends_on:
+      - mosquitto
+  mosquitto:
+    image: eclipse-mosquitto
+    network_mode: host

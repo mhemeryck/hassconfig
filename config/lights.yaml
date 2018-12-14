@@ -3,6 +3,7 @@
   name: "Basement entrance LED strip"
   state_topic: "lights/basement_entrance/led_strip/status"
   command_topic: "lights/basement_entrance/led_strip/switch"
+  optimistic: true
 
 # Living
 - platform: mqtt
@@ -18,7 +19,6 @@
 # Floor
 - platform: mqtt
   name: "Floor hall central light"
-  state_topic: "lights/floor_hall/status"
   command_topic: "lights/floor_hall/switch"
 - platform: mqtt
   name: "Floor hall spots"

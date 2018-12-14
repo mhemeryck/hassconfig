@@ -1,12 +1,9 @@
-id: light-home
-alias: Turn on light when I get home after sunset
-trigger:
-  platform: zone
-  entity_id: device_tracker.martijn_oneplus3
-  zone: zone.home
-condition:
-  condition: sun
-  after: sunset
-action:
-  service: homeassistant.turn_on
-  entity_id: switch.standing_light
+- id: toggle_night_hall_switch
+  alias: Switch MQTT light based on toggle
+  trigger:
+    platform: mqtt
+    topic: "night_hall/toggle"
+    payload: "trigger"
+  action:
+    service: light.toggle
+    entity_id: light.floor_hall_central_light

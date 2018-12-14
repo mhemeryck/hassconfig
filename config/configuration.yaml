@@ -60,13 +60,15 @@ sun:
 
 # MQTT broker; use the built-in
 mqtt:
+  broker: localhost
 
 # Weather prediction
 sensor:
   - platform: buienradar
 
 group: !include groups.yaml
-# automation: !include automations.yaml
+
+automation: !include automations.yaml
 
 light: !include lights.yaml
 
