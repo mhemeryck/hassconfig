@@ -1,0 +1,19 @@
+# Second floor
+- platform: mqtt
+  name: "Night hall central 1"
+  command_topic: "push_buttons/night_hall_central_1/toggle"
+- platform: mqtt
+  name: "Night hall central 2"
+  command_topic: "push_buttons/night_hall_central_2/toggle"
+- platform: mqtt
+  name: "Night hall central 3"
+  command_topic: "push_buttons/night_hall_central_3/toggle"
+- platform: mqtt
+  name: "Night hall central 4"
+  command_topic: "push_buttons/night_hall_central_4/toggle"
+- platform: mqtt
+  name: "Night hall central 5"
+  command_topic: "push_buttons/night_hall_central_5/toggle"
+- platform: mqtt
+  name: "Night hall central 6"
+  command_topic: "push_buttons/night_hall_central_6/toggle"
