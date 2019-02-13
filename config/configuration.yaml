@@ -27,6 +27,7 @@ zone:
 
 # Enables the frontend
 frontend:
+  themes: !include themes.yaml
 
 # Enables configuration UI
 config:
@@ -62,6 +63,12 @@ sun:
 #   - platform: google_maps
 #     username: !secret google_username
 #     password: !secret google_password
+
+http:
+  trusted_networks:
+    - 127.0.0.1
+    - 192.168.1.0/24
+    - ::1
 
 # MQTT broker; use the built-in
 mqtt:
