@@ -1,13 +1,48 @@
-Second floor:
+Basement:
+  view: true
+  entities:
+    - light.basement_entrance_downlights
+    - light.basement_entrance_wall_recessed
+    - light.practice_entrance_downlights
+    - light.practice_desk_downlight
+    - light.practice_central_downlights
+    - light.basement_hall_entrance_practice
+    - light.basement_hall_downlights_entrance
+    - light.basement_hall_downlights_entrance
+    - light.basement_hall_downlights_central
+    - light.tech_room_central
+    - light.storage_room_central
+    - light.archives_central
+    - light.staircase_basement_wall
+Ground floor:
+  view: true
+  entities:
+    - light.hall_wall_recessed
+    - light.hall_downlights
+    - light.toilet_central
+    - light.study_central
+    - light.living_room_entrance
+    - light.living_room_central
+    - light.living_room_downlights_window
+    - light.dining_room_table
+    - light.dining_room_cupboard
+    - light.dining_room_indirect_window
+    - light.kitchen_downlights
+    - light.kitchen_sink
+    - light.kitchen_cooker_hood
+    - light.kitchen_strips
+    - light.kitchen_indirect_window
+    - light.pantry_central
+First floor:
   view: true
   entities:
     - light.night_hall_central
     - light.night_hall_downlights
     - light.night_hall_toilet
-    - light.bath_room_entrance
-    - light.bath_room_bath
-    - light.bath_room_shower
-    - light.bath_room_closet
+    - light.bathroom_entrance
+    - light.bathroom_bath
+    - light.bathroom_shower
+    - light.bathroom_closet
     - light.bedroom_parents_left_downlights
     - light.bedroom_parents_central
     - light.bedroom_parents_right_downlights
