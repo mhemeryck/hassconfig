@@ -1,4 +1,93 @@
-# Second floor
+# Basement
+- platform: mqtt
+  name: "Basement entrance downlights"
+  command_topic: "lights/basement_entrance_downlights/switch"
+- platform: mqtt
+  name: "Basement entrance wall recessed"
+  command_topic: "lights/basement_entrance_recessed/switch"
+- platform: mqtt
+  name: "Practice entrance downlights"
+  command_topic: "lights/practice_entrance_downlights/switch"
+- platform: mqtt
+  name: "Practice desk downlight"
+  command_topic: "lights/practice_desk_downlight/switch"
+- platform: mqtt
+  name: "Practice central downlights"
+  command_topic: "lights/practice_central_downlights/switch"
+- platform: mqtt
+  name: "Basement hall entrance practice"
+  command_topic: "lights/basement_hall_entrance_practice/switch"
+- platform: mqtt
+  name: "Basement hall downlights entrance"
+  command_topic: "lights/basement_hall_downlights_entrance/switch"
+- platform: mqtt
+  name: "Basement hall downlights entrance"
+  command_topic: "lights/basement_hall_downlights_entrance/switch"
+- platform: mqtt
+  name: "Basement hall downlights central"
+  command_topic: "lights/basement_hall_downlights_central/switch"
+- platform: mqtt
+  name: "Tech room central"
+  command_topic: "lights/tech_room_central/switch"
+- platform: mqtt
+  name: "Storage room central"
+  command_topic: "lights/storage_room_central/switch"
+- platform: mqtt
+  name: "Archives central"
+  command_topic: "lights/archives_central/switch"
+- platform: mqtt
+  name: "Staircase basement wall"
+  command_topic: "lights/staircase_basement_wall/switch"
+# Ground level
+- platform: mqtt
+  name: "Hall wall recessed"
+  command_topic: "lights/hall_wall_recessed/switch"
+- platform: mqtt
+  name: "Hall downlights"
+  command_topic: "lights/hall_downlights/switch"
+- platform: mqtt
+  name: "Toilet central"
+  command_topic: "lights/hall_downlights/switch"
+- platform: mqtt
+  name: "Study central"
+  command_topic: "lights/study_central/switch"
+- platform: mqtt
+  name: "Living room entrance"
+  command_topic: "lights/living_room_entrance/switch"
+- platform: mqtt
+  name: "Living room central"
+  command_topic: "lights/living_room_central/switch"
+- platform: mqtt
+  name: "Living room downlights window"
+  command_topic: "lights/living_room_downlights_window/switch"
+- platform: mqtt
+  name: "Dining room table"
+  command_topic: "lights/dining_room_table/switch"
+- platform: mqtt
+  name: "Dining room cupboard"
+  command_topic: "lights/dining_room_cupboard/switch"
+- platform: mqtt
+  name: "Dining room indirect window"
+  command_topic: "lights/dining_room_indirect_window/switch"
+- platform: mqtt
+  name: "Kitchen downlights"
+  command_topic: "lights/kitchen_downlights/switch"
+- platform: mqtt
+  name: "Kitchen sink"
+  command_topic: "lights/kitchen_sink/switch"
+- platform: mqtt
+  name: "Kitchen cooker hood"
+  command_topic: "lights/kitchen_cooker_hood/switch"
+- platform: mqtt
+  name: "Kitchen strips"
+  command_topic: "lights/kitchen_strips/switch"
+- platform: mqtt
+  name: "Kitchen indirect window"
+  command_topic: "lights/kitchen_indirect_window/switch"
+- platform: mqtt
+  name: "Pantry central"
+  command_topic: "lights/pantry_central/switch"
+# First floor
 - platform: mqtt
   name: "Night hall central"
   command_topic: "lights/night_hall_central/switch"
@@ -9,17 +98,17 @@
   name: "Night hall toilet"
   command_topic: "lights/night_hall_toilet/switch"
 - platform: mqtt
-  name: "Bath room entrance"
-  command_topic: "lights/bath_room_entrance/switch"
+  name: "Bathroom entrance"
+  command_topic: "lights/bathroom_entrance/switch"
 - platform: mqtt
-  name: "Bath room bath"
-  command_topic: "lights/bath_room_bath/switch"
+  name: "Bathroom bath"
+  command_topic: "lights/bathroom_bath/switch"
 - platform: mqtt
-  name: "Bath room shower"
-  command_topic: "lights/bath_room_shower/switch"
+  name: "Bathroom shower"
+  command_topic: "lights/bathroom_shower/switch"
 - platform: mqtt
-  name: "Bath room closet"
-  command_topic: "lights/bath_room_closet/switch"
+  name: "Bathroom closet"
+  command_topic: "lights/bathroom_closet/switch"
 - platform: mqtt
   name: "Bedroom parents left downlights"
   command_topic: "lights/bedroom_parents_left_downlights/switch"
