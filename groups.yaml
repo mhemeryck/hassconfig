@@ -14,6 +14,38 @@ Basement:
     - light.storage_room_central
     - light.archives_central
     - light.staircase_basement_wall
+    - switch.basement_entrance_1
+    - switch.basement_entrance_2
+    - switch.basement_entrance_3
+    - switch.basement_entrance_4
+    - switch.basement_entrance_5
+    - switch.basement_entrance_6
+    - switch.basement_entrance_2_1
+    - switch.basement_entrance_2_2
+    - switch.basement_entrance_2_3
+    - switch.basement_entrance_2_4
+    - switch.practice_1
+    - switch.practice_2
+    - switch.practice_3
+    - switch.practice_4
+    - switch.practice_5
+    - switch.practice_6
+    - switch.practice_2_1
+    - switch.practice_2_2
+    - switch.practice_2_3
+    - switch.practice_2_4
+    - switch.practice_exit_1
+    - switch.practice_exit_2
+    - switch.practice_exit_3
+    - switch.practice_exit_4
+    - switch.archives_entrance_1
+    - switch.archives_to_storage_1
+    - switch.archives_to_storage_2
+    - switch.basement_staircase_1
+    - switch.basement_staircase_2
+    - switch.basement_staircase_3
+    - switch.basement_staircase_4
+    - switch.tech_room_1
 Ground floor:
   view: true
   entities:
@@ -33,6 +65,46 @@ Ground floor:
     - light.kitchen_strips
     - light.kitchen_indirect_window
     - light.pantry_central
+    - switch.hall_1
+    - switch.hall_2
+    - switch.hall_3
+    - switch.hall_4
+    - switch.hall_5
+    - switch.hall_6
+    - switch.toilet_1
+    - switch.study_1
+    - switch.study_2
+    - switch.study_3
+    - switch.study_4
+    - switch.study_2_1
+    - switch.study_2_2
+    - switch.kitchen_1
+    - switch.kitchen_2
+    - switch.kitchen_3
+    - switch.kitchen_4
+    - switch.kitchen_5
+    - switch.kitchen_6
+    - switch.pantry_1
+    - switch.living_room_1
+    - switch.living_room_2
+    - switch.living_room_3
+    - switch.living_room_4
+    - switch.living_room_2_1
+    - switch.living_room_2_2
+    - switch.living_room_2_3
+    - switch.living_room_2_4
+    - switch.living_room_window_1
+    - switch.living_room_window_2
+    - switch.living_room_window_3
+    - switch.living_room_window_4
+    - switch.dining_room_1
+    - switch.dining_room_2
+    - switch.dining_room_3
+    - switch.dining_room_4
+    - switch.dining_room_2_1
+    - switch.dining_room_2_2
+    - switch.dining_room_2_3
+    - switch.dining_room_2_4
 First floor:
   view: true
   entities:
@@ -55,3 +127,20 @@ First floor:
     - switch.night_hall_central_4
     - switch.night_hall_central_5
     - switch.night_hall_central_6
+    - switch.night_hall_1
+    - switch.night_hall_2
+    - switch.night_hall_3
+    - switch.night_hall_4
+    - switch.night_hall_5
+    - switch.night_hall_6
+    - switch.night_hall_toilet_1
+    - switch.bathroom_1
+    - switch.bathroom_2
+    - switch.bathroom_closet_1
+    - switch.bedroom_parents_1
+    - switch.bedroom_parents_2
+    - switch.bedroom_parents_sink_1
+    - switch.bedroom_parents_closet_1
+    - switch.bedroom_parents_closet_2
+    - switch.bedroom_victor_1
+    - switch.bedroom_lucas_1
