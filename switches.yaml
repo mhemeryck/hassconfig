@@ -1,19 +1,270 @@
-# Second floor
+# Basement
 - platform: mqtt
-  name: "Night hall central 1"
-  command_topic: "push_buttons/night_hall_central_1/toggle"
+  name: "Basement entrance 1"
+  command_topic: "push_buttons/basement_entrance_1/toggle"
 - platform: mqtt
-  name: "Night hall central 2"
-  command_topic: "push_buttons/night_hall_central_2/toggle"
+  name: "Basement entrance 2"
+  command_topic: "push_buttons/basement_entrance_2/toggle"
 - platform: mqtt
-  name: "Night hall central 3"
-  command_topic: "push_buttons/night_hall_central_3/toggle"
+  name: "Basement entrance 3"
+  command_topic: "push_buttons/basement_entrance_3/toggle"
 - platform: mqtt
-  name: "Night hall central 4"
-  command_topic: "push_buttons/night_hall_central_4/toggle"
+  name: "Basement entrance 4"
+  command_topic: "push_buttons/basement_entrance_4/toggle"
 - platform: mqtt
-  name: "Night hall central 5"
-  command_topic: "push_buttons/night_hall_central_5/toggle"
+  name: "Basement entrance 5"
+  command_topic: "push_buttons/basement_entrance_5/toggle"
 - platform: mqtt
-  name: "Night hall central 6"
-  command_topic: "push_buttons/night_hall_central_6/toggle"
+  name: "Basement entrance 6"
+  command_topic: "push_buttons/basement_entrance_6/toggle"
+- platform: mqtt
+  name: "Basement entrance 2 1"
+  command_topic: "push_buttons/basement_entrance_2_1/toggle"
+- platform: mqtt
+  name: "Basement entrance 2 2"
+  command_topic: "push_buttons/basement_entrance_2_2/toggle"
+- platform: mqtt
+  name: "Basement entrance 2 3"
+  command_topic: "push_buttons/basement_entrance_2_3/toggle"
+- platform: mqtt
+  name: "Basement entrance 2 4"
+  command_topic: "push_buttons/basement_entrance_2_4/toggle"
+- platform: mqtt
+  name: "Practice 1"
+  command_topic: "push_buttons/practice_1/toggle"
+- platform: mqtt
+  name: "Practice 2"
+  command_topic: "push_buttons/practice_2/toggle"
+- platform: mqtt
+  name: "Practice 3"
+  command_topic: "push_buttons/practice_3/toggle"
+- platform: mqtt
+  name: "Practice 4"
+  command_topic: "push_buttons/practice_4/toggle"
+- platform: mqtt
+  name: "Practice 5"
+  command_topic: "push_buttons/practice_5/toggle"
+- platform: mqtt
+  name: "Practice 6"
+  command_topic: "push_buttons/practice_6/toggle"
+- platform: mqtt
+  name: "Practice 2 1"
+  command_topic: "push_buttons/practice_2_1/toggle"
+- platform: mqtt
+  name: "Practice 2 2"
+  command_topic: "push_buttons/practice_2_2/toggle"
+- platform: mqtt
+  name: "Practice 2 3"
+  command_topic: "push_buttons/practice_2_3/toggle"
+- platform: mqtt
+  name: "Practice 2 4"
+  command_topic: "push_buttons/practice_2_4/toggle"
+- platform: mqtt
+  name: "Practice exit 1"
+  command_topic: "push_buttons/practice_exit_1/toggle"
+- platform: mqtt
+  name: "Practice exit 2"
+  command_topic: "push_buttons/practice_exit_2/toggle"
+- platform: mqtt
+  name: "Practice exit 3"
+  command_topic: "push_buttons/practice_exit_3/toggle"
+- platform: mqtt
+  name: "Practice exit 4"
+  command_topic: "push_buttons/practice_exit_4/toggle"
+- platform: mqtt
+  name: "Archives entrance 1"
+  command_topic: "push_buttons/archives_entrance_1/toggle"
+- platform: mqtt
+  name: "Archives to storage 1"
+  command_topic: "push_buttons/archives_to_storage_1/toggle"
+- platform: mqtt
+  name: "Archives to storage 2"
+  command_topic: "push_buttons/archives_to_storage_2/toggle"
+- platform: mqtt
+  name: "Basement staircase 1"
+  command_topic: "push_buttons/basement_staircase_1/toggle"
+- platform: mqtt
+  name: "Basement staircase 2"
+  command_topic: "push_buttons/basement_staircase_2/toggle"
+- platform: mqtt
+  name: "Basement staircase 3"
+  command_topic: "push_buttons/basement_staircase_3/toggle"
+- platform: mqtt
+  name: "Basement staircase 4"
+  command_topic: "push_buttons/basement_staircase_4/toggle"
+- platform: mqtt
+  name: "Tech room 1"
+  command_topic: "push_buttons/tech_room_1/toggle"
+# Ground floor
+- platform: mqtt
+  name: "Hall 1"
+  command_topic: "push_buttons/hall_1/toggle"
+- platform: mqtt
+  name: "Hall 2"
+  command_topic: "push_buttons/hall_2/toggle"
+- platform: mqtt
+  name: "Hall 3"
+  command_topic: "push_buttons/hall_3/toggle"
+- platform: mqtt
+  name: "Hall 4"
+  command_topic: "push_buttons/hall_4/toggle"
+- platform: mqtt
+  name: "Hall 5"
+  command_topic: "push_buttons/hall_5/toggle"
+- platform: mqtt
+  name: "Hall 6"
+  command_topic: "push_buttons/hall_6/toggle"
+- platform: mqtt
+  name: "Toilet 1"
+  command_topic: "pir/toilet_1/toggle"
+- platform: mqtt
+  name: "Study 1"
+  command_topic: "push_buttons/study_1/toggle"
+- platform: mqtt
+  name: "Study 2"
+  command_topic: "push_buttons/study_2/toggle"
+- platform: mqtt
+  name: "Study 3"
+  command_topic: "push_buttons/study_3/toggle"
+- platform: mqtt
+  name: "Study 4"
+  command_topic: "push_buttons/study_4/toggle"
+- platform: mqtt
+  name: "Study 2 1"
+  command_topic: "push_buttons/study_2_1/toggle"
+- platform: mqtt
+  name: "Study 2 2"
+  command_topic: "push_buttons/study_2_2/toggle"
+- platform: mqtt
+  name: "Kitchen 1"
+  command_topic: "push_buttons/kitchen_1/toggle"
+- platform: mqtt
+  name: "Kitchen 2"
+  command_topic: "push_buttons/kitchen_2/toggle"
+- platform: mqtt
+  name: "Kitchen 3"
+  command_topic: "push_buttons/kitchen_3/toggle"
+- platform: mqtt
+  name: "Kitchen 4"
+  command_topic: "push_buttons/kitchen_4/toggle"
+- platform: mqtt
+  name: "Kitchen 5"
+  command_topic: "push_buttons/kitchen_5/toggle"
+- platform: mqtt
+  name: "Kitchen 6"
+  command_topic: "push_buttons/kitchen_6/toggle"
+- platform: mqtt
+  name: "Pantry 1"
+  command_topic: "push_buttons/pantry_1/toggle"
+- platform: mqtt
+  name: "Living room 1"
+  command_topic: "push_buttons/living_room_1/toggle"
+- platform: mqtt
+  name: "Living room 2"
+  command_topic: "push_buttons/living_room_2/toggle"
+- platform: mqtt
+  name: "Living room 3"
+  command_topic: "push_buttons/living_room_3/toggle"
+- platform: mqtt
+  name: "Living room 4"
+  command_topic: "push_buttons/living_room_4/toggle"
+- platform: mqtt
+  name: "Living room 2 1"
+  command_topic: "push_buttons/living_room_2_1/toggle"
+- platform: mqtt
+  name: "Living room 2 2"
+  command_topic: "push_buttons/living_room_2_2/toggle"
+- platform: mqtt
+  name: "Living room 2 3"
+  command_topic: "push_buttons/living_room_2_3/toggle"
+- platform: mqtt
+  name: "Living room 2 4"
+  command_topic: "push_buttons/living_room_2_4/toggle"
+- platform: mqtt
+  name: "Living room window 1"
+  command_topic: "push_buttons/living_room_window_1/toggle"
+- platform: mqtt
+  name: "Living room window 2"
+  command_topic: "push_buttons/living_room_window_2/toggle"
+- platform: mqtt
+  name: "Living room window 3"
+  command_topic: "push_buttons/living_room_window_3/toggle"
+- platform: mqtt
+  name: "Living room window 4"
+  command_topic: "push_buttons/living_room_window_4/toggle"
+- platform: mqtt
+  name: "Dining room 1"
+  command_topic: "push_buttons/dining_room_1/toggle"
+- platform: mqtt
+  name: "Dining room 2"
+  command_topic: "push_buttons/dining_room_2/toggle"
+- platform: mqtt
+  name: "Dining room 3"
+  command_topic: "push_buttons/dining_room_3/toggle"
+- platform: mqtt
+  name: "Dining room 4"
+  command_topic: "push_buttons/dining_room_4/toggle"
+- platform: mqtt
+  name: "Dining room 2 1"
+  command_topic: "push_buttons/dining_room_2_1/toggle"
+- platform: mqtt
+  name: "Dining room 2 2"
+  command_topic: "push_buttons/dining_room_2_2/toggle"
+- platform: mqtt
+  name: "Dining room 2 3"
+  command_topic: "push_buttons/dining_room_2_3/toggle"
+- platform: mqtt
+  name: "Dining room 2 4"
+  command_topic: "push_buttons/dining_room_2_4/toggle"
+# First floor
+- platform: mqtt
+  name: "Night hall 1"
+  command_topic: "push_buttons/night_hall_1/toggle"
+- platform: mqtt
+  name: "Night hall 2"
+  command_topic: "push_buttons/night_hall_2/toggle"
+- platform: mqtt
+  name: "Night hall 3"
+  command_topic: "push_buttons/night_hall_3/toggle"
+- platform: mqtt
+  name: "Night hall 4"
+  command_topic: "push_buttons/night_hall_4/toggle"
+- platform: mqtt
+  name: "Night hall 5"
+  command_topic: "push_buttons/night_hall_5/toggle"
+- platform: mqtt
+  name: "Night hall 6"
+  command_topic: "push_buttons/night_hall_6/toggle"
+- platform: mqtt
+  name: "Night hall toilet 1"
+  command_topic: "pir/night_hall_toilet_1/toggle"
+- platform: mqtt
+  name: "Bathroom 1"
+  command_topic: "push_buttons/bathroom_1/toggle"
+- platform: mqtt
+  name: "Bathroom 2"
+  command_topic: "push_buttons/bathroom_2/toggle"
+- platform: mqtt
+  name: "Bathroom closet 1"
+  command_topic: "push_buttons/bathroom_closet_1/toggle"
+- platform: mqtt
+  name: "Bedroom parents 1"
+  command_topic: "push_buttons/bedroom_parents_1/toggle"
+- platform: mqtt
+  name: "Bedroom parents 2"
+  command_topic: "push_buttons/bedroom_parents_2/toggle"
+- platform: mqtt
+  name: "Bedroom parents sink 1"
+  command_topic: "push_buttons/bedroom_parents_sink_1/toggle"
+- platform: mqtt
+  name: "Bedroom parents closet 1"
+  command_topic: "push_buttons/bedroom_parents_closet_1/toggle"
+- platform: mqtt
+  name: "Bedroom parents closet 2"
+  command_topic: "push_buttons/bedroom_parents_closet_2/toggle"
+- platform: mqtt
+  name: "Bedroom Victor 1"
+  command_topic: "push_buttons/bedroom_victor_1/toggle"
+- platform: mqtt
+  name: "Bedroom Lucas 1"
+  command_topic: "push_buttons/bedroom_lucas_1/toggle"

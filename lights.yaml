@@ -87,6 +87,9 @@
 - platform: mqtt
   name: "Pantry central"
   command_topic: "lights/pantry_central/switch"
+- platform: mqtt
+  name: "Staircase first floor strips"
+  command_topic: "lights/staircase_first_floor_strips/switch"
 # First floor
 - platform: mqtt
   name: "Night hall central"
