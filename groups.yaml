@@ -1,19 +1,8 @@
-Basement:
+Basement entrance:
   view: true
   entities:
     - light.basement_entrance_downlights
     - light.basement_entrance_wall_recessed
-    - light.practice_entrance_downlights
-    - light.practice_desk_downlight
-    - light.practice_central_downlights
-    - light.basement_hall_entrance_practice
-    - light.basement_hall_downlights_entrance
-    - light.basement_hall_downlights_entrance
-    - light.basement_hall_downlights_central
-    - light.tech_room_central
-    - light.storage_room_central
-    - light.archives_central
-    - light.staircase_basement_wall
     - switch.basement_entrance_1
     - switch.basement_entrance_2
     - switch.basement_entrance_3
@@ -24,6 +13,13 @@ Basement:
     - switch.basement_entrance_2_2
     - switch.basement_entrance_2_3
     - switch.basement_entrance_2_4
+
+Practice:
+  view: true
+  entities:
+    - light.practice_entrance_downlights
+    - light.practice_desk_downlight
+    - light.practice_central_downlights
     - switch.practice_1
     - switch.practice_2
     - switch.practice_3
@@ -38,33 +34,45 @@ Basement:
     - switch.practice_exit_2
     - switch.practice_exit_3
     - switch.practice_exit_4
-    - switch.archives_entrance_1
-    - switch.archives_to_storage_1
-    - switch.archives_to_storage_2
+
+Basement hall:
+  view: true
+  entities:
+    - light.basement_hall_entrance_practice
+    - light.basement_hall_downlights_entrance
+    - light.basement_hall_downlights_entrance
+    - light.basement_hall_downlights_central
+    - light.staircase_basement_wall
     - switch.basement_staircase_1
     - switch.basement_staircase_2
     - switch.basement_staircase_3
     - switch.basement_staircase_4
+
+Tech room:
+  view: true
+  entities:
+    - light.tech_room_central
     - switch.tech_room_1
-Ground floor:
+
+Storage room:
+  view: true
+  entities:
+    - light.storage_room_central
+    - switch.archives_entrance_1
+
+Archives:
+  view: true
+  entities:
+    - light.archives_central
+    - switch.archives_to_storage_1
+    - switch.archives_to_storage_2
+
+Entrance hall:
   view: true
   entities:
     - light.hall_wall_recessed
     - light.hall_downlights
     - light.toilet_central
-    - light.study_central
-    - light.living_room_entrance
-    - light.living_room_central
-    - light.living_room_downlights_window
-    - light.dining_room_table
-    - light.dining_room_cupboard
-    - light.dining_room_indirect_window
-    - light.kitchen_downlights
-    - light.kitchen_sink
-    - light.kitchen_cooker_hood
-    - light.kitchen_strips
-    - light.kitchen_indirect_window
-    - light.pantry_central
     - switch.hall_1
     - switch.hall_2
     - switch.hall_3
@@ -72,19 +80,24 @@ Ground floor:
     - switch.hall_5
     - switch.hall_6
     - switch.toilet_1
+
+Study:
+  view: true
+  entities:
+    - light.study_central
     - switch.study_1
     - switch.study_2
     - switch.study_3
     - switch.study_4
     - switch.study_2_1
     - switch.study_2_2
-    - switch.kitchen_1
-    - switch.kitchen_2
-    - switch.kitchen_3
-    - switch.kitchen_4
-    - switch.kitchen_5
-    - switch.kitchen_6
-    - switch.pantry_1
+
+Living room:
+  view: true
+  entities:
+    - light.living_room_entrance
+    - light.living_room_central
+    - light.living_room_downlights_window
     - switch.living_room_1
     - switch.living_room_2
     - switch.living_room_3
@@ -97,6 +110,13 @@ Ground floor:
     - switch.living_room_window_2
     - switch.living_room_window_3
     - switch.living_room_window_4
+
+Dining room:
+  view: true
+  entities:
+    - light.dining_room_table
+    - light.dining_room_cupboard
+    - light.dining_room_indirect_window
     - switch.dining_room_1
     - switch.dining_room_2
     - switch.dining_room_3
@@ -105,22 +125,34 @@ Ground floor:
     - switch.dining_room_2_2
     - switch.dining_room_2_3
     - switch.dining_room_2_4
-First floor:
+
+Kitchen:
+  view: true
+  entities:
+    - light.kitchen_downlights
+    - light.kitchen_sink
+    - light.kitchen_cooker_hood
+    - light.kitchen_strips
+    - light.kitchen_indirect_window
+    - switch.kitchen_1
+    - switch.kitchen_2
+    - switch.kitchen_3
+    - switch.kitchen_4
+    - switch.kitchen_5
+    - switch.kitchen_6
+
+Pantry:
+  view: true
+  entities:
+    - light.pantry_central
+    - switch.pantry_1
+
+Night hall:
   view: true
   entities:
     - light.night_hall_central
     - light.night_hall_downlights
     - light.night_hall_toilet
-    - light.bathroom_entrance
-    - light.bathroom_bath
-    - light.bathroom_shower
-    - light.bathroom_closet
-    - light.bedroom_parents_left_downlights
-    - light.bedroom_parents_central
-    - light.bedroom_parents_right_downlights
-    - light.bedroom_parents_dressing
-    - light.bedroom_Victor_central
-    - light.bedroom_Lucas_central
     - switch.night_hall_central_1
     - switch.night_hall_central_2
     - switch.night_hall_central_3
@@ -134,13 +166,39 @@ First floor:
     - switch.night_hall_5
     - switch.night_hall_6
     - switch.night_hall_toilet_1
+
+Bathroom:
+  view: true
+  entities:
+    - light.bathroom_entrance
+    - light.bathroom_bath
+    - light.bathroom_shower
+    - light.bathroom_closet
     - switch.bathroom_1
     - switch.bathroom_2
     - switch.bathroom_closet_1
+
+Bedroom parents:
+  view: true
+  entities:
+    - light.bedroom_parents_left_downlights
+    - light.bedroom_parents_central
+    - light.bedroom_parents_right_downlights
+    - light.bedroom_parents_dressing
     - switch.bedroom_parents_1
     - switch.bedroom_parents_2
     - switch.bedroom_parents_sink_1
     - switch.bedroom_parents_closet_1
     - switch.bedroom_parents_closet_2
+
+Victor room:
+  view: true
+  entities:
+    - light.bedroom_Victor_central
     - switch.bedroom_victor_1
+
+Lucas room:
+  view: true
+  entities:
+    - light.bedroom_Lucas_central
     - switch.bedroom_lucas_1
