@@ -2,7 +2,7 @@
   alias: Toggle night hall central light
   trigger:
     platform: mqtt
-    topic: "push_buttons/night_hall_central_1/toggle"
+    topic: "push_buttons/night_hall_1/toggle"
   action:
     service: light.toggle
     entity_id: light.night_hall_central
