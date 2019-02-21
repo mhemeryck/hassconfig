@@ -3,6 +3,7 @@
 !*.yaml
 !.gitignore
 !*.md
+!torrc
 
 secrets.yaml
 known_devices.yaml
