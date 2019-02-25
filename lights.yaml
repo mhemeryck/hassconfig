@@ -1,4 +1,5 @@
 # Basement
+
 - platform: mqtt
   name: "Basement entrance downlights"
   command_topic: "lights/basement_entrance_downlights/switch"
@@ -15,17 +16,8 @@
   name: "Practice central downlights"
   command_topic: "lights/practice_central_downlights/switch"
 - platform: mqtt
-  name: "Basement hall entrance practice"
-  command_topic: "lights/basement_hall_entrance_practice/switch"
-- platform: mqtt
-  name: "Basement hall downlights entrance"
-  command_topic: "lights/basement_hall_downlights_entrance/switch"
-- platform: mqtt
-  name: "Basement hall downlights entrance"
-  command_topic: "lights/basement_hall_downlights_entrance/switch"
-- platform: mqtt
-  name: "Basement hall downlights central"
-  command_topic: "lights/basement_hall_downlights_central/switch"
+  name: "Basement hall downlights"
+  command_topic: "lights/basement_hall_downlights/switch"
 - platform: mqtt
   name: "Tech room central"
   command_topic: "lights/tech_room_central/switch"
@@ -36,9 +28,11 @@
   name: "Archives central"
   command_topic: "lights/archives_central/switch"
 - platform: mqtt
-  name: "Staircase basement wall"
-  command_topic: "lights/staircase_basement_wall/switch"
+  name: "Staircase basement hall"
+  command_topic: "lights/staircase_basement_hall/switch"
+
 # Ground level
+
 - platform: mqtt
   name: "Hall wall recessed"
   command_topic: "lights/hall_wall_recessed/switch"
@@ -90,7 +84,9 @@
 - platform: mqtt
   name: "Staircase first floor strips"
   command_topic: "lights/staircase_first_floor_strips/switch"
+
 # First floor
+
 - platform: mqtt
   name: "Night hall central"
   command_topic: "lights/night_hall_central/switch"
@@ -130,3 +126,8 @@
 - platform: mqtt
   name: "Bedroom Lucas central"
   command_topic: "lights/bedroom_lucas_central/switch"
+
+# Outdoor
+- platform: mqtt
+  name: "Outdoor basement LED strip"
+  command_topic: "lights/outdoor_basement_led_strip/switch"

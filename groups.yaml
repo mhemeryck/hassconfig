@@ -38,11 +38,8 @@ Practice:
 Basement hall:
   view: true
   entities:
-    - light.basement_hall_entrance_practice
-    - light.basement_hall_downlights_entrance
-    - light.basement_hall_downlights_entrance
-    - light.basement_hall_downlights_central
-    - light.staircase_basement_wall
+    - light.basement_hall_downlights
+    - light.staircase_basement_hall
     - switch.basement_staircase_1
     - switch.basement_staircase_2
     - switch.basement_staircase_3

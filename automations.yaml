@@ -1,5 +1,48 @@
-- id: toggle_night_hall_central
-  alias: Toggle night hall central light
+# Basement entrance light switch
+
+- alias: Toggle basement entrance downlights
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_entrance_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.basement_entrance_downlights
+
+- alias: Toggle basement entrance downlights
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_entrance_2/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.basement_entrance_wall_recessed
+
+- alias: Toggle basement hall downlights
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_entrance_3/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.basement_hall_downlights
+
+- alias: Toggle staircase basement hall
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_entrance_4/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.staircase_basement_hall
+
+- alias: Toggle outdoor LED strip basement
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_entrance_5/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.outdoor_basement_led_strip
+
+# Night hall
+
+- alias: Toggle night hall central light
   trigger:
     platform: mqtt
     topic: "push_buttons/night_hall_1/toggle"
