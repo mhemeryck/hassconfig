@@ -120,6 +120,16 @@
     service: light.toggle
     entity_id: light.tech_room_central
 
+# Storage room
+
+- alias: Toggle light storage room from storage room
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/storage_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.storage_room_central
+
 # Night hall
 
 - alias: Toggle night hall central light
