@@ -130,6 +130,32 @@
     service: light.toggle
     entity_id: light.storage_room_central
 
+# Archives
+
+- alias: Toggle light archives from passage to practice
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/archives_entrance_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.archives_central
+
+- alias: Toggle light archives from passage to storage
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/archives_to_storage_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.archives_central
+
+- alias: Toggle light storage from passage to storage
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/archives_to_storage_2/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.storage_room_central
+
 # Night hall
 
 - alias: Toggle night hall central light
