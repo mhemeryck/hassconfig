@@ -92,6 +92,24 @@
     service: light.toggle
     entity_id: group.practice_central_downlights
 
+# Basement hall
+
+- alias: Toggle basement hall downlights from staircase
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_staircase_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.basement_hall_downlights
+
+- alias: Toggle staircase lights from basement
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/basement_staircase_2/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.staircase_basement_hall
+
 # Night hall
 
 - alias: Toggle night hall central light
