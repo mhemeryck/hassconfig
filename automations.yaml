@@ -40,6 +40,58 @@
     service: light.toggle
     entity_id: light.outdoor_basement_led_strip
 
+# Basement practice entrance
+
+- alias: Toggle practice entrance downlights
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/practice_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.practice_entrance_downlights
+
+- alias: Toggle practice desk downlight
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/practice_2/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.practice_desk_downlight
+
+- alias: Toggle practice desk downlight
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/practice_3/toggle"
+  action:
+    service: light.toggle
+    entity_id: group.practice_central_downlights
+
+# Basement practice exit
+
+- alias: Toggle practice entrance downlights
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/practice_exit_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.practice_entrance_downlights
+
+- alias: Toggle practice desk downlight
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/practice_exit_2/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.practice_desk_downlight
+
+- alias: Toggle practice desk downlight
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/practice_exit_3/toggle"
+  action:
+    service: light.toggle
+    entity_id: group.practice_central_downlights
+
 # Night hall
 
 - alias: Toggle night hall central light

@@ -13,8 +13,11 @@
   name: "Practice desk downlight"
   command_topic: "lights/practice_desk_downlight/switch"
 - platform: mqtt
-  name: "Practice central downlights"
-  command_topic: "lights/practice_central_downlights/switch"
+  name: "Practice central downlights left"
+  command_topic: "lights/practice_central_downlights_left/switch"
+- platform: mqtt
+  name: "Practice central downlights right"
+  command_topic: "lights/practice_central_downlights_right/switch"
 - platform: mqtt
   name: "Basement hall downlights"
   command_topic: "lights/basement_hall_downlights/switch"
@@ -128,6 +131,7 @@
   command_topic: "lights/bedroom_lucas_central/switch"
 
 # Outdoor
+
 - platform: mqtt
   name: "Outdoor basement LED strip"
   command_topic: "lights/outdoor_basement_led_strip/switch"
