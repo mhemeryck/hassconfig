@@ -110,6 +110,16 @@
     service: light.toggle
     entity_id: light.staircase_basement_hall
 
+# Tech room
+
+- alias: Toggle light tech room
+  trigger:
+    platform: mqtt
+    topic: "push_buttons/tech_room_1/toggle"
+  action:
+    service: light.toggle
+    entity_id: light.tech_room_central
+
 # Night hall
 
 - alias: Toggle night hall central light
