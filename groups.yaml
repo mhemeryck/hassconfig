@@ -19,7 +19,7 @@ Practice:
   entities:
     - light.practice_entrance_downlights
     - light.practice_desk_downlight
-    - light.practice_central_downlights
+    - group.practice_central_downlights
     - switch.practice_1
     - switch.practice_2
     - switch.practice_3
@@ -199,3 +199,10 @@ Lucas room:
   entities:
     - light.bedroom_Lucas_central
     - switch.bedroom_lucas_1
+
+# Combined lights
+
+practice central downlights:
+  entities:
+    - light.practice_central_downlights_left
+    - light.practice_central_downlights_right
