@@ -62,6 +62,7 @@ Archives:
   view: true
   entities:
     - light.archives_central
+    - switch.archives_entrance_1
     - switch.archives_to_storage_1
     - switch.archives_to_storage_2
 
