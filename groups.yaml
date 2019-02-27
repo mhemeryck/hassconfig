@@ -56,6 +56,7 @@ Storage room:
   entities:
     - light.storage_room_central
     - switch.archives_entrance_1
+    - switch.storage_1
 
 Archives:
   view: true

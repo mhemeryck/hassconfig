@@ -81,6 +81,9 @@
   name: "Archives to storage 2"
   command_topic: "push_buttons/archives_to_storage_2/toggle"
 - platform: mqtt
+  name: "Storage 1"
+  command_topic: "push_buttons/storage_1/toggle"
+- platform: mqtt
   name: "Basement staircase 1"
   command_topic: "push_buttons/basement_staircase_1/toggle"
 - platform: mqtt
